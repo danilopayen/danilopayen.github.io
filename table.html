@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Test tableau</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css" />
+</head>
+
+<body>
+
+    <!-- DIRTY Responsive pricing table HTML -->
+
+    <article>
+
+        <ul class="block-offres">
+            <li class="offres click">
+                <button>Essentiel <strong>2h</strong></button>
+            </li>
+            <li class="offres">
+                <button>Essentiel <strong>illimités</strong></button>
+            </li>
+            <li class="offres active">
+                <button>Business <strong>5 Go</strong></button>
+            </li>
+            <li class="offres">
+                <button>Smartphone <strong>5 Go</strong></button>
+            </li>
+            <li class="offres">
+                <button>Smartphone <strong>20 Go</strong></button>
+            </li>
+            <li class="offres">
+                <button>Smartphone <strong>50 Go</strong></button>
+            </li>
+        </ul>
+
+        <table>
+            <thead>
+                <tr>
+                    <th class="hide"></th>
+                    <th class="offres">Essentiel <br><strong>2h</strong></th>
+                    <th class="offres">Essentiel <br><strong>illimités</strong></th>
+                    <th class="offres default">Business <br><strong>5 Go</strong></th>
+                    <th class="offres">Smartphone <br><strong>5 Go</strong></th>
+                    <th class="offres">Smartphone <br><strong>20 Go</strong></th>
+                    <th class="offres">Smartphone <br><strong>50 Go</strong></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="tarifs bg-blue">Tarifs ( HT / Mois )</td>
+                    <td class="tarifs"><span class="txt-l">6</span><sup>€ 99<br></sup></td>
+                    <td class="tarifs"><span class="txt-l">12</span><sup>€ 99<br></sup></td>
+                    <td class="tarifs"><span class="txt-l">19</span><sup>€ 99<br></sup></td>
+                    <td class="tarifs"><span class="txt-l">24</span><sup>€ 99<br></sup></td>
+                    <td class="tarifs"><span class="txt-l">34</span><sup>€ 99<br></sup></td>
+                    <td class="tarifs"><span class="txt-l">39</span><sup>€ 99<br></sup></td>
+                </tr>
+                <!--
+                    <tr>
+                        <td colspan="5" class="sep">Get started easily</td>
+                    </tr>
+                    -->
+                <tr class="grey-row">
+                    <td class="bg-blue">Appels, SMS, MMS* illimités<br>en France et depuis l'UE</td>
+                    <td><span><strong>2h</strong> d'appels<br>en illimité</span></td>
+                    <td><span class="tick"><i class="fas fa-check"></i></span></td>
+                    <td><span class="tick"><i class="fas fa-check"></i></span></td>
+                    <td><span class="tick"><i class="fas fa-check"></i></span></td>
+                    <td><span class="tick"><i class="fas fa-check"></i></span></td>
+                    <td><span class="tick"><i class="fas fa-check"></i></span></td>
+                </tr>
+                <tr>
+                    <td class="bg-blue">Internet Mobile</td>
+                    <td><span class="cross"><i class="fas fa-times"></i></span></td>
+                    <td><span class="cross"><i class="fas fa-times"></i></span></td>
+                    <td><span class="package"><strong>5</strong> Go</span></td>
+                    <td><span class="package"><strong>5</strong> Go</span></td>
+                    <td><span class="package"><strong>20</strong> Go</span></td>
+                    <td><span class="package"><strong>50</strong> Go</span></td>
+                </tr>
+                <tr>
+                    <td class="hide"></td>
+                    <td><a href="https://commande.stella-telecom.fr/mobile/telephonie/forfaits"><span
+                                class="button">Commander</span></a></td>
+                    <td><a href="https://commande.stella-telecom.fr/mobile/telephonie/forfaits"><span
+                                class="button">Commander</span></a></td>
+                    <td><a href="https://commande.stella-telecom.fr/mobile/telephonie/forfaits"><span
+                                class="button">Commander</span></a></td>
+                    <td><a href="https://commande.stella-telecom.fr/mobile/telephonie/forfaits"><span
+                                class="button">Commander</span></a></td>
+                    <td><a href="https://commande.stella-telecom.fr/mobile/telephonie/forfaits"><span
+                                class="button">Commander</span></a></td>
+                    <td><a href="https://commande.stella-telecom.fr/mobile/telephonie/forfaits"><span
+                                class="button">Commander</span></a></td>
+                </tr>
+            </tbody>
+        </table>
+
+    </article>
+
+    <script src="jquery-3.4.1.min.js"></script>
+    <script src="table.js"></script>
+
+</body>
+
+</html>
